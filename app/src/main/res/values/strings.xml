@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LoginScreenHomework</string>
+    <string name="login_page">登录页面</string>
+    <string name="phone_number">手机号码：</string>
+    <string name="phone_number_input">"请输入手机号码 "</string>
+    <string name="login_password">"登录密码："</string>
+    <string name="password_input">"请输入密码 "</string>
+    <string name="main_page">"主页面"</string>
+    <string name="login">"登录"</string>
+    <string name="register">"注册"</string>
+    <string name="register_page">"注册页面"</string>
+    <string name="user_name">"用户名：    "</string>
+    <string name="user_name_hint">"大写字母开头，6-12个字母数字"</string>
+    <string name="login_password_hint">"6-20个小写字母"</string>
+    <string name="confirm_password">"确认密码："</string>
+    <string name="password_again">"重复输入密码"</string>
+    <string name="phone_number_hint">"合法的手机号码"</string>
+    <string name="verification_code">"验证码：    "</string>
+    <string name="cancel">"取消"</string>
+    <string name="user_sitting">"用户设置"</string>
+    <string name="gender">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+</resources>

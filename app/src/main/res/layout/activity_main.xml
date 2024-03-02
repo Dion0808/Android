@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    class="androidx.appcompat.app.AlertController$RecycleListView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/MaterialToolbarStyle"
+        app:title="Main Activity" />
+    <TextView
+        android:id="@+id/tv_main_page"
+        style="@style/TextViewStyleTitle"
+        android:text="@string/main_page"/>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_main_display"
+            style="@style/TextViewMainDisplayStyle"/>
+        <ImageButton
+            android:id="@+id/iv_user_sitting"
+            style="@style/ImageButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle">
+        <Button
+            android:id="@+id/bt_main_login"
+            style="@style/ButtonLoginStyle"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/MaterialToolbarStyle"
+        app:title="Register Activity"/>
+    <TextView
+        android:id="@+id/tv_register_page"
+        style="@style/TextViewStyleTitle"
+        android:text="@string/register_page"/>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_register_user"
+            style="@style/TextViewStyle"
+            android:text="@string/user_name" />
+        <EditText
+            android:id="@+id/et_register_user"
+            style="@style/CustomEditText"
+            android:hint="@string/user_name_hint"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_register_password"
+            style="@style/TextViewStyle"
+            android:text="@string/login_password" />
+        <EditText
+            android:id="@+id/et_register_password"
+            style="@style/CustomEditText"
+            android:inputType="textPassword"
+            android:hint="@string/login_password_hint"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_register_password2"
+            style="@style/TextViewStyle"
+            android:text="@string/confirm_password" />
+        <EditText
+            android:id="@+id/et_register_password2"
+            style="@style/CustomEditText"
+            android:inputType="textPassword"
+            android:hint="@string/password_again"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_register_number"
+            style="@style/TextViewStyle"
+            android:text="@string/phone_number" />
+        <EditText
+            android:id="@+id/et_register_number"
+            style="@style/CustomEditText"
+            android:hint="@string/phone_number_hint"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLinearLayoutStyle">
+        <TextView
+            android:id="@+id/tv_register_Captcha"
+            style="@style/TextViewStyle"
+            android:text="@string/verification_code" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/et_register_captcha"
+                style="@style/CustomCaptchaEditText" />/>
+
+            <Button
+                android:id="@+id/bt_register_send"
+                style="@style/ButtonSendStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/LinearLayoutStyle3">
+        <Button
+            android:id="@+id/bt_register_register"
+            style="@style/ButtonStyle"
+            android:text="@string/register"/>
+        <Button
+            android:id="@+id/bt_register_cancel"
+            style="@style/ButtonStyle"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+</LinearLayout>
